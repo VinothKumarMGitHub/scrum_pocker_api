@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.aws-sam/build/
+samconfig.toml
+src/**/aws-lambda-tools-defaults.json
