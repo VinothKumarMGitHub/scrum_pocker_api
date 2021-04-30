@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+        python: 3.7
+  build:
+    commands:
+      - sam package --template-file template.yaml --s3-bucket $SAM_BUCKET --output-template-file scrum_pocker_api-template.yaml
+artifacts:
+  files:
+    - scrum_pocker_api-template.yaml
