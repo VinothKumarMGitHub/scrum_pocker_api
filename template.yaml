@@ -1,9 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: >
-  scrum_pocker_api
-
-  Sample SAM Template for scrum_pocker_api
+Description:   scrum_pocker_api Sample SAM Template for scrum_pocker_api
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
